@@ -1,0 +1,4 @@
+el proyecto está echo con laravel 5.3
+
+Es MVC, contiene tres tablas relacionadas, que son 
+proyectores, profesores y prestamos, a estos tienen un modelo para el crud en laravel que son Proyectore, Profesore y Prestamo estos se encuentran en la carpta app, si te das cuenta el nombre de las tablas son el plural y minusculas y el nombre de los modelos son en singular y la letra inicial mayuscula, esto es por convencion de laravel, tambien tenemos controladores que ahi es donde hacemos la logica, solamente ocupamos un controlador para todo, se llama ProyectoresController, este se encuentra en la carpeta app/Http/Controllers, y finalmente tenemos las vistas que estan en la carpeta app/resources/views
